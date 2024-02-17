@@ -1,6 +1,6 @@
 # Green Software Development Course
 
-My Course Work for the Green Development Course conducted by EcoITCon
+My Course Work for the Green Software Development Course conducted by EcoITCon
 
 # Git Tutorial
 
