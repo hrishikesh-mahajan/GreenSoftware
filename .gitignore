@@ -1,0 +1,18 @@
+# Sample Git Ignore File Comment
+
+## This is a sample git ignore file to ignore files from git version control software
+
+# Sample file type
+*.ignoreFile
+
+# Sample file 
+ignoreFile.txt
+
+# Sample directory
+ignoreDirectory/
+
+# Sample file in directory
+ignoreDirectory/ignoreFile.txt
+
+# Sample file in any sub directory
+**/ignoreFile.txt
