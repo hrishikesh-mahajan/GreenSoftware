@@ -1,3 +1,4 @@
 # Git Tutorial
-- First commit in the repository
-- Second commit in the repository
+
+- My First commit in the repository
+- My Second commit in the repository
