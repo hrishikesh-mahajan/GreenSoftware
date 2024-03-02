@@ -36,6 +36,7 @@ class ShoppingCart:
         else:
             print(f"{product.name} is not in your cart.")
 
+
 class Customer:
     def __init__(self, name, email):
         self.name = name
@@ -83,7 +84,9 @@ while True:
     if user_input == '1':
         print("\nSelect a product to add to the cart:")
         product_id = int(input("Product ID: "))
-        selected_product = next((product for product in products if product.id == product_id), None)
+        selected_product = next(
+            (product for product in products
+             if product.id == product_id), None)
         if selected_product:
             customer.add_to_cart(selected_product)
             print(f"Added {selected_product.name} to the cart.")
@@ -96,7 +99,9 @@ while True:
     elif user_input == '3':
         print("\nSelect a product to remove from the cart:")
         product_id = int(input("Product ID: "))
-        selected_product = next((product for product in customer.shopping_cart.products if product.id == product_id), None)
+        selected_product = next(
+            (product for product in customer.shopping_cart.products
+             if product.id == product_id), None)
         if selected_product:
             customer.remove_from_cart(selected_product)
         else:
