@@ -81,33 +81,38 @@ while True:
     print("4. Checkout")
     user_input = input("Enter option number: ")
 
-    if user_input == '1':
+    if user_input == "1":
         print("\nSelect a product to add to the cart:")
         product_id = int(input("Product ID: "))
         selected_product = next(
-            (product for product in products
-             if product.id == product_id), None)
+            (product for product in products if product.id == product_id), None
+        )
         if selected_product:
             customer.add_to_cart(selected_product)
             print(f"Added {selected_product.name} to the cart.")
         else:
             print("Invalid product ID. Please try again.")
 
-    elif user_input == '2':
+    elif user_input == "2":
         customer.shopping_cart.display_cart()
 
-    elif user_input == '3':
+    elif user_input == "3":
         print("\nSelect a product to remove from the cart:")
         product_id = int(input("Product ID: "))
         selected_product = next(
-            (product for product in customer.shopping_cart.products
-             if product.id == product_id), None)
+            (
+                product
+                for product in customer.shopping_cart.products
+                if product.id == product_id
+            ),
+            None,
+        )
         if selected_product:
             customer.remove_from_cart(selected_product)
         else:
             print("Invalid product ID. Please try again.")
 
-    elif user_input == '4':
+    elif user_input == "4":
         customer.checkout()
         break
 
