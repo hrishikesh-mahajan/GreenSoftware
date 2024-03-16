@@ -131,6 +131,15 @@ def delete_from_cart():
         return jsonify({"error": "Product not found in the cart"}), 404
 
 
+@app.route("/search_product/name/<string:product_name>", methods=["GET"])
+def search_product_by_name(product_name: str):
+    product = next((product for product in products if product_name in product["name"]), None)
+    if product:
+        return jsonify(product)
+    else:
+        return jsonify({"message": "Product not found"}), 404
+
+
 print(carts)
 if __name__ == "__main__":
     app.run(debug=True)
