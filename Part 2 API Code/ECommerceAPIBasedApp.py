@@ -124,9 +124,7 @@ def delete_from_cart():
     if product_id in cart:
         del cart[product_id]
         carts[user_id] = cart
-        return (
-            jsonify({"message": "Product removed from cart successfully"}),
-            200)
+        return (jsonify({"message": "Product removed from cart successfully"}), 200)
     else:
         return jsonify({"error": "Product not found in the cart"}), 404
 
