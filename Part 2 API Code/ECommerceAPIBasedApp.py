@@ -133,11 +133,13 @@ def delete_from_cart():
 
 @app.route("/search_product/name/<string:product_name>", methods=["GET"])
 def search_product_by_name(product_name: str):
-    product = next((product for product in products if product_name in product["name"]), None)
-    if product:
-        return jsonify(product)
+    results = [
+        product for product in products if query.lower() in product["name"].lower()
+    ]
+    if results:
+        return jsonify(results)
     else:
-        return jsonify({"message": "Product not found"}), 404
+        return jsonify({"message": "No products found"}), 404
 
 
 print(carts)
