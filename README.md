@@ -17,3 +17,11 @@ The Python-Flask API Application for E-Commerce Platform.
 ## [Part 3 UI Code](Part%203%20UI%20Code)
 
 The Python-Flask Web Application for E-Commerce Platform with Vanilla HTML5, CSS3, JS and Bootstrap.
+
+## [Part 4 API Code with DB](Part%204%20API%20Code%20with%20DB)
+
+The Python-Flask API Application for E-Commerce Platform with MongoDB Database.
+
+## [Part 5 - Unit Testing](Part%205%20-%20Unit%20Testing)
+
+Unit Testing for various modules of the E-Commerce Platform. Tests written using PyTest framework.
