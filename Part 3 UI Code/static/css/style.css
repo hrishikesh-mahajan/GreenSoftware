@@ -8,6 +8,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -65,4 +70,31 @@ li {
 #total-amount {
   margin-top: 10px;
   font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container > * {
+  flex: 1;
+  margin-inline: 10px;
+  margin-block: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
 }
