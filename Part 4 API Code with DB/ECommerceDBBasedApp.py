@@ -1,7 +1,7 @@
 import os
 
 from dotenv import load_dotenv
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, render_template, request
 from pymongo import MongoClient
 
 app = Flask(__name__)
@@ -32,6 +32,13 @@ products = [
 
 # Define a collection to store cart items (for demonstration purposes)
 cart = []
+
+
+# Default route to display the homepage
+@app.route("/")
+def index():
+    products = list(products_collection.find({}, {"_id": 0}))
+    return render_template("index.html", products=products)
 
 
 # Function to display all products from the MongoDB database
