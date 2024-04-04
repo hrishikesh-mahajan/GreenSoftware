@@ -1,13 +1,15 @@
-from flask import Flask, request, jsonify
+import os
+
+from dotenv import load_dotenv
+from flask import Flask, jsonify, request
 from pymongo import MongoClient
-from dotenv import dotenv_values
 
 app = Flask(__name__)
 
-config = {**dotenv_values(".env")}
+load_dotenv()
 
 uri = (
-    f"mongodb+srv://{config['MONGODB_USERNAME']}:{config['MONGODB_PASSWORD']}"
+    f"mongodb+srv://{os.environ['MONGODB_USERNAME']}:{os.environ['MONGODB_PASSWORD']}"
     f"@ecommerce-app.az3fhzg.mongodb.net/?retryWrites=true&w=majority"
     f"&appName=ECommerce-App"
 )
