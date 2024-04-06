@@ -31,6 +31,13 @@
   - [4. Technical Specification](#4-technical-specification)
     - [4.1. Performance Constraints](#41-performance-constraints)
     - [4.2. Memory/OS/Hardware](#42-memoryoshardware)
+  - [5. Specific Requirements](#5-specific-requirements)
+    - [5.1 Client-side](#51-client-side)
+      - [5.1.1 Browser Requierments](#511-browser-requierments)
+      - [5.1.2 Device Requirements](#512-device-requirements)
+    - [5.2 Server-side](#52-server-side)
+      - [5.2.1 Server Requirements](#521-server-requirements)
+      - [5.2.2 Server Deployment and Automation](#522-server-deployment-and-automation)
 
 ## 1. Requirements Analysis
 
@@ -44,7 +51,7 @@ Solution: The e-commerce website provides a convenient alternative, allowing use
 
 Issue: Physical stores have limited space, leading to a restricted range of products available for customers.
 
-Solution: The e-commerce platform overcomes this limitation by offering a vast and diverse range of products. Users have access to a comprehensive catalogue, including various categories, brands, and options that may not be available in local stores.
+Solution: The e-commerce platform overcomes this limitation by offering a vast and diverse range of products. Users have access to a comprehensive catalog, including various categories, brands, and options that may not be available in local stores.
 
 ### 1.3. Lack of Centralized Product Information
 
@@ -144,7 +151,7 @@ Great! Let's provide more detailed explanations for the external interface speci
 
 - Responsive design for seamless use across devices
   1. The user interface should adapt to different screen sizes, including desktops, laptops, tablets, and smartphones.
-  2. Utilize responsive design frameworks, such as Bootstrap or Flex box, to ensure a consistent and visually appealing experience across devices.
+  2. Utilize responsive design frameworks, such as Bootstrap or Flexbox, to ensure a consistent and visually appealing experience across devices.
 
 - Intuitive navigation for both roles
   1. Implement a clear and user-friendly navigation structure with logical menus and easy-to-use controls.
@@ -158,7 +165,7 @@ Great! Let's provide more detailed explanations for the external interface speci
 
 - RESTful API for client-server communication
   1. Design the API endpoints following RESTful principles, providing a stateless and scalable architecture.
-  2. Clearly document API endpoints, request methods, and response formats for efficient communication between the frontend and backend.
+  2. Document API endpoints, request methods, and response formats for efficient communication between the front end and back end.
 
 ### 3.3. Hardware Interfaces
 
@@ -233,3 +240,44 @@ Explanation
   - Device Detection
     1. Implement device detection mechanisms to identify the user's device and tailor the content or features accordingly.
     2. Ensure that the user interface remains intuitive and user-friendly regardless of the device being used.
+
+## 5. Specific Requirements
+
+### 5.1 Client-side
+
+#### 5.1.1 Browser Requierments
+
+- Ensure the web application is compatible with the following popular web browsers:
+  - Google Chrome (version 108)
+  - Mozilla Firefox (version 107)
+  - Microsoft Edge (version 108)
+  - Apple Safari (version 16)
+  - Chromium (version 108)
+
+#### 5.1.2 Device Requirements
+
+- The web application should be accessible and functional on the following devices:
+  - Desktops and laptops running Windows, macOS, or Linux operating systems
+  - Smartphones and tablets running Android or iOS
+  - Various screen sizes and resolutions, including HD, Full HD, and 4K displays
+
+### 5.2 Server-side
+
+#### 5.2.1 Server Requirements
+
+- The server hosting the e-commerce platform should meet the following requirements:
+  - Operating System: Ubuntu Server 20.04 LTS
+  - Web Server: Nginx 1.20
+  - Application Server: Gunicorn 20.1
+  - Database: MongoDB 4.4
+  - Python Version: 3.9
+  - Additional Software: Git, Certbot (for SSL/TLS)
+  - Asynchronous Tasks: Celery 5.2
+  - Containerization: Docker, Docker Compose
+
+#### 5.2.2 Server Deployment and Automation
+
+- Utilize Docker and Docker Compose to containerize the application and its dependencies, ensuring consistent and reproducible deployments.
+- CI/CD integration: Implement a continuous integration and continuous deployment (CI/CD) pipeline using tools like GitHub Actions for automated testing and deployment.
+
+This detailed Software Specifications Requirements Document provides a comprehensive overview of the requirements, functionalities, and technical specifications for the e-commerce platform. It serves as a valuable reference for developers, designers, and stakeholders involved in the project.
