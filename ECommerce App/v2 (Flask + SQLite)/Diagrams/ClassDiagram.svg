@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="447px" preserveAspectRatio="none" style="width:432px;height:447px;background:#FFFFFF;" version="1.1" viewBox="0 0 432 447" width="432px" zoomAndPan="magnify">
+  <defs/>
+  <g>    <!--class DBAccess-->
+    <g id="elem_DBAccess">
+      <rect codeLine="1" fill="#F1F1F1" height="145.7813" id="DBAccess" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="418" x="7" y="7"/>
+      <ellipse cx="176.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+      <path d="M179.0938,18.6719 C178.1563,18.2344 177.5625,18.0938 176.6875,18.0938 C174.0625,18.0938 172.0625,20.1719 172.0625,22.8906 L172.0625,24.0156 C172.0625,26.5938 174.1719,28.4844 177.0625,28.4844 C178.2813,28.4844 179.4375,28.1875 180.1875,27.6406 C180.7656,27.2344 181.0938,26.7813 181.0938,26.3906 C181.0938,25.9375 180.7031,25.5469 180.2344,25.5469 C180.0156,25.5469 179.8125,25.625 179.625,25.8125 C179.1719,26.2969 179.1719,26.2969 178.9844,26.3906 C178.5625,26.6563 177.875,26.7813 177.1094,26.7813 C175.0625,26.7813 173.7656,25.6875 173.7656,23.9844 L173.7656,22.8906 C173.7656,21.1094 175.0156,19.7969 176.75,19.7969 C177.3281,19.7969 177.9375,19.9531 178.4063,20.2031 C178.8906,20.4844 179.0625,20.7031 179.1563,21.1094 C179.2188,21.5156 179.25,21.6406 179.3906,21.7656 C179.5313,21.9063 179.7656,22.0156 179.9844,22.0156 C180.25,22.0156 180.5156,21.875 180.6875,21.6563 C180.7969,21.5 180.8281,21.3125 180.8281,20.8906 L180.8281,19.4688 C180.8281,19.0313 180.8125,18.9063 180.7188,18.75 C180.5625,18.4844 180.2813,18.3438 179.9844,18.3438 C179.6875,18.3438 179.4844,18.4375 179.2656,18.75 L179.0938,18.6719 Z " fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="197.25" y="27.8467">DBAccess</text>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="424" y1="39" y2="39"/>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="49.6484"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="27" y="55.9951">conn: Connection</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="65.9453"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="27" y="72.292">cur: Cursor</text>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="424" y1="79.5938" y2="79.5938"/>
+      <ellipse cx="18" cy="93.2422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="392" x="27" y="96.5889">executeQuery(query: String, params: Tuple): ResultSet</text>
+      <ellipse cx="18" cy="109.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="232" x="27" y="112.8857">insertCustomer(data: Dict): void</text>
+      <ellipse cx="18" cy="125.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="203" x="27" y="129.1826">insertSeller(data: Dict): void</text>
+      <ellipse cx="18" cy="142.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="27" y="145.4795">closeConnection(): void</text>
+    </g>    <!--class Customer-->
+    <g id="elem_Customer">
+      <rect codeLine="10" fill="#F1F1F1" height="210.9688" id="Customer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="146" x="53" y="230"/>
+      <ellipse cx="87.8" cy="246" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+      <path d="M90.1438,241.6719 C89.2063,241.2344 88.6125,241.0938 87.7375,241.0938 C85.1125,241.0938 83.1125,243.1719 83.1125,245.8906 L83.1125,247.0156 C83.1125,249.5938 85.2219,251.4844 88.1125,251.4844 C89.3313,251.4844 90.4875,251.1875 91.2375,250.6406 C91.8156,250.2344 92.1438,249.7813 92.1438,249.3906 C92.1438,248.9375 91.7531,248.5469 91.2844,248.5469 C91.0656,248.5469 90.8625,248.625 90.675,248.8125 C90.2219,249.2969 90.2219,249.2969 90.0344,249.3906 C89.6125,249.6563 88.925,249.7813 88.1594,249.7813 C86.1125,249.7813 84.8156,248.6875 84.8156,246.9844 L84.8156,245.8906 C84.8156,244.1094 86.0656,242.7969 87.8,242.7969 C88.3781,242.7969 88.9875,242.9531 89.4563,243.2031 C89.9406,243.4844 90.1125,243.7031 90.2063,244.1094 C90.2688,244.5156 90.3,244.6406 90.4406,244.7656 C90.5813,244.9063 90.8156,245.0156 91.0344,245.0156 C91.3,245.0156 91.5656,244.875 91.7375,244.6563 C91.8469,244.5 91.8781,244.3125 91.8781,243.8906 L91.8781,242.4688 C91.8781,242.0313 91.8625,241.9063 91.7688,241.75 C91.6125,241.4844 91.3313,241.3438 91.0344,241.3438 C90.7375,241.3438 90.5344,241.4375 90.3156,241.75 L90.1438,241.6719 Z " fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="106.2" y="250.8467">Customer</text>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="54" x2="198" y1="262" y2="262"/>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="272.6484"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="73" y="278.9951">name: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="288.9453"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="73" y="295.292">email: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="305.2422"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="73" y="311.5889">phone: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="321.5391"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="73" y="327.8857">area: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="337.8359"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="73" y="344.1826">locality: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="354.1328"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="73" y="360.4795">city: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="370.4297"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="73" y="376.7764">state: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="386.7266"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="73" y="393.0732">country: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="403.0234"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="73" y="409.3701">zip: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="61" y="419.3203"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="73" y="425.667">password: String</text>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="54" x2="198" y1="432.9688" y2="432.9688"/>
+    </g>    <!--class Seller-->
+    <g id="elem_Seller">
+      <rect codeLine="23" fill="#F1F1F1" height="210.9688" id="Seller" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="146" x="234" y="230"/>
+      <ellipse cx="282.25" cy="246" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+      <path d="M284.5938,241.6719 C283.6563,241.2344 283.0625,241.0938 282.1875,241.0938 C279.5625,241.0938 277.5625,243.1719 277.5625,245.8906 L277.5625,247.0156 C277.5625,249.5938 279.6719,251.4844 282.5625,251.4844 C283.7813,251.4844 284.9375,251.1875 285.6875,250.6406 C286.2656,250.2344 286.5938,249.7813 286.5938,249.3906 C286.5938,248.9375 286.2031,248.5469 285.7344,248.5469 C285.5156,248.5469 285.3125,248.625 285.125,248.8125 C284.6719,249.2969 284.6719,249.2969 284.4844,249.3906 C284.0625,249.6563 283.375,249.7813 282.6094,249.7813 C280.5625,249.7813 279.2656,248.6875 279.2656,246.9844 L279.2656,245.8906 C279.2656,244.1094 280.5156,242.7969 282.25,242.7969 C282.8281,242.7969 283.4375,242.9531 283.9063,243.2031 C284.3906,243.4844 284.5625,243.7031 284.6563,244.1094 C284.7188,244.5156 284.75,244.6406 284.8906,244.7656 C285.0313,244.9063 285.2656,245.0156 285.4844,245.0156 C285.75,245.0156 286.0156,244.875 286.1875,244.6563 C286.2969,244.5 286.3281,244.3125 286.3281,243.8906 L286.3281,242.4688 C286.3281,242.0313 286.3125,241.9063 286.2188,241.75 C286.0625,241.4844 285.7813,241.3438 285.4844,241.3438 C285.1875,241.3438 284.9844,241.4375 284.7656,241.75 L284.5938,241.6719 Z " fill="#000000"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="302.75" y="250.8467">Seller</text>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="235" x2="379" y1="262" y2="262"/>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="272.6484"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="254" y="278.9951">name: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="288.9453"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="254" y="295.292">email: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="305.2422"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="254" y="311.5889">phone: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="321.5391"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="254" y="327.8857">area: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="337.8359"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="254" y="344.1826">locality: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="354.1328"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="254" y="360.4795">city: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="370.4297"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="254" y="376.7764">state: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="386.7266"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="254" y="393.0732">country: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="403.0234"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="254" y="409.3701">zip: String</text>
+      <rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="242" y="419.3203"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="254" y="425.667">password: String</text>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="235" x2="379" y1="432.9688" y2="432.9688"/>
+    </g>    <!--link DBAccess to Customer-->
+    <g id="link_DBAccess_Customer">
+      <path codeLine="36" d="M190.33,153.304 C181.861,177.158 174.2724,198.5338 165.1244,224.3008 " fill="none" id="DBAccess-to-Customer" style="stroke:#181818;stroke-width:1.0;"/>
+      <polygon fill="#181818" points="163.117,229.955,169.8976,222.8119,164.7898,225.2431,162.3586,220.1354,163.117,229.955" style="stroke:#181818;stroke-width:1.0;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="181" y="196.0669">Inserts</text>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="179.5948" y="172.8362">1</text>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="158.4807" y="219.0792">*</text>
+    </g>    <!--link DBAccess to Seller-->
+    <g id="link_DBAccess_Seller">
+      <path codeLine="37" d="M241.955,153.304 C250.518,177.158 258.1938,198.5409 267.4438,224.3079 " fill="none" id="DBAccess-to-Seller" style="stroke:#181818;stroke-width:1.0;"/>
+      <polygon fill="#181818" points="269.471,229.955,270.1949,220.1328,267.7816,225.249,262.6654,222.8358,269.471,229.955" style="stroke:#181818;stroke-width:1.0;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="257" y="196.0669">Inserts</text>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="235.979" y="172.8362">1</text>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="259.5861" y="219.0792">*</text>
+    </g>    <!--SRC=[rPAzJiKm38NtFeNLgVnqOCs01FSkZ51Um78jY9GcnN602-BT2IqD1C43i5Z9bnFR9muvZ17sbnT4d1Ul3K0F5BmtiCkHIMtmAqoIMP8O9EzFW9-Pal9rOZbq3n_HmA1Y_Tqfp2WuHGEtQNPyPE26Ot8wi2uthOyikajHmyJIZQXeO6z9i_8nsF6RQ63d_fIG2v6_kkosixUceSNMLkBJbiU9jnuNm1DQLv7vFlXQWy9O0HS8dTL31UadY8fQ9wAGl4gjUh5pNJvt_HHaBB1OMH_YNnifdwmzQw7lpw4zRik835mj0u-_orRxHVGE]--></g>
+</svg>

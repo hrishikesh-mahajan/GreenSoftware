@@ -1,0 +1,39 @@
+@startuml
+class DBAccess {
+  - conn: Connection
+  - cur: Cursor
+  + executeQuery(query: String, params: Tuple): ResultSet
+  + insertCustomer(data: Dict): void
+  + insertSeller(data: Dict): void
+  + closeConnection(): void
+}
+
+class Customer {
+  - name: String
+  - email: String
+  - phone: String
+  - area: String
+  - locality: String
+  - city: String
+  - state: String
+  - country: String
+  - zip: String
+  - password: String
+}
+
+class Seller {
+  - name: String
+  - email: String
+  - phone: String
+  - area: String
+  - locality: String
+  - city: String
+  - state: String
+  - country: String
+  - zip: String
+  - password: String
+}
+
+DBAccess "1" --> "*" Customer: Inserts
+DBAccess "1" --> "*" Seller: Inserts
+@endumlc:\Users\Shree\Downloads\ClassDiagram.png c:\Users\Shree\Downloads\ClassDiagram.svg
