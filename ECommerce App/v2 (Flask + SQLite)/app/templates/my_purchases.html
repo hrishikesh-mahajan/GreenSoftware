@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Eco-commerce purchase history" />
+    <title>My Purchases - Eco-commerce</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='main.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme|K2D"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" />
+  </head>
+  <body>
+    <div class="sticky">
+      <h1>Eco-Commerce</h1>
+    </div>
+    <div class="nav">
+      <p>
+        <a href="/">Home</a> > <a href="/buy">Buy</a> >
+        <a href="">My Purchases</a>
+      </p>
+    </div>
+    <h2>My Purchases</h2>
+    {% if purchases|length==0 %}
+    <p>You haven't done any purchases yet.</p>
+    {% else %}
+    <table>
+      <tr>
+        <th>SNO.</th>
+        <th>PRODUCT</th>
+        <th>QUANTITY</th>
+        <th>AMOUNT</th>
+        <th>DATE-TIME</th>
+      </tr>
+      {% set cnt={'val':1} %}
+      {% for i in purchases %}
+      <tr>
+        <td>{{cnt['val']}}</td>
+        <td><a href="/viewproduct/{{i[0]}}">{{i[1]}}</a></td>
+        <td>{{i[2]}}</td>
+        <td>₹ {{i[3]}}</td>
+        <td>{{i[4]}}</td>
+      </tr>
+      {%if cnt.update({'val':(cnt['val']+1)}) %}
+      {% endif %}
+      {% endfor %}
+    </table>
+    {% endif %}
+  </body>
+</html>
